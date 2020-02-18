@@ -18,3 +18,9 @@ This module generates a web map. The output of the module is an HTML file, that 
 3.	Conclusion
 
 This web map with geolocation markers of 10 films, that were shot in a year chosen by a user and in the location nearest to the location also chosen by a user. By using it user can assume the nearest places to his location, where films were shot in a particular year.
+
+4. Examples of execution:
+![Picture 1](screenshots/IMG_8571.PNG)
+![Picture 2](screenshots/IMG_8573.PNG)
+![Picture 3](screenshots/IMG_8572.PNG)
+![Picture 4](screenshots/IMG_8570.PNG)
