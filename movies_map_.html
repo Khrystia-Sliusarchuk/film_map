@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1a6b4662b9b443358a50bc59ecccbbc5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_1a6b4662b9b443358a50bc59ecccbbc5" ></div>
+        
+</body>
+<script>    
+    
+            var map_1a6b4662b9b443358a50bc59ecccbbc5 = L.map(
+                "map_1a6b4662b9b443358a50bc59ecccbbc5",
+                {
+                    center: [0, 0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 1,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1b7529a002b84beaa148b40837274654 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1a6b4662b9b443358a50bc59ecccbbc5);
+        
+    
+            var feature_group_66336396c52c4465ae882e76f36aec04 = L.featureGroup(
+                {}
+            ).addTo(map_1a6b4662b9b443358a50bc59ecccbbc5);
+        
+    
+            var marker_819a303702cd4696b51e1b8864e943ed = L.marker(
+                [39.0122924, -7.0692642],
+                {}
+            ).addTo(feature_group_66336396c52c4465ae882e76f36aec04);
+        
+    
+            var icon_d865d82841254f1c979815d7a0bfadef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_819a303702cd4696b51e1b8864e943ed.setIcon(icon_d865d82841254f1c979815d7a0bfadef);
+        
+    
+        var popup_754b8c7e0f2e41959f67816a417f8859 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c981244dbe2a4161a0c546baa7a65734 = $(`<div id="html_c981244dbe2a4161a0c546baa7a65734" style="width: 100.0%; height: 100.0%;">A Raia dos Medos, location: Campo Maior, Portugal</div>`)[0];
+            popup_754b8c7e0f2e41959f67816a417f8859.setContent(html_c981244dbe2a4161a0c546baa7a65734);
+        
+
+        marker_819a303702cd4696b51e1b8864e943ed.bindPopup(popup_754b8c7e0f2e41959f67816a417f8859)
+        ;
+
+        
+    
+    
+            var marker_b3b5fd0edda749abbc43b862a45288ce = L.marker(
+                [38.7077507, -9.1365919],
+                {}
+            ).addTo(feature_group_66336396c52c4465ae882e76f36aec04);
+        
+    
+            var icon_5053b9bb17174de697ca85172673b906 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_b3b5fd0edda749abbc43b862a45288ce.setIcon(icon_5053b9bb17174de697ca85172673b906);
+        
+    
+        var popup_c17cbfa344bf4ba7903250d3ca4bbc9d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9cce28b890ff4bed9147707b56bc21e9 = $(`<div id="html_9cce28b890ff4bed9147707b56bc21e9" style="width: 100.0%; height: 100.0%;">A Outra Face da Lua, location: Lisbon, Portugal</div>`)[0];
+            popup_c17cbfa344bf4ba7903250d3ca4bbc9d.setContent(html_9cce28b890ff4bed9147707b56bc21e9);
+        
+
+        marker_b3b5fd0edda749abbc43b862a45288ce.bindPopup(popup_c17cbfa344bf4ba7903250d3ca4bbc9d)
+        ;
+
+        
+    
+    
+            var feature_group_96dbf159e5ef46308162525b9ec0ff34 = L.featureGroup(
+                {}
+            ).addTo(map_1a6b4662b9b443358a50bc59ecccbbc5);
+        
+    
+            var layer_control_fbd7f2640269463cbf9d68059bdb27ae = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_1b7529a002b84beaa148b40837274654,
+                },
+                overlays :  {
+                    "Films that were shooted in 2000" : feature_group_66336396c52c4465ae882e76f36aec04,
+                    "Capitals of the all countries." : feature_group_96dbf159e5ef46308162525b9ec0ff34,
+                },
+            };
+            L.control.layers(
+                layer_control_fbd7f2640269463cbf9d68059bdb27ae.base_layers,
+                layer_control_fbd7f2640269463cbf9d68059bdb27ae.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_1a6b4662b9b443358a50bc59ecccbbc5);
+        
+</script>
